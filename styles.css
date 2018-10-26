@@ -1,1 +1,38 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+    background-color: #c6d9ec;
+}
+
+section {
+    margin: 50px;
+    padding: 5px;
+    width: 40%;
+
+}
+
+aside {
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+}
+
+header {
+    background-color: lightsteelblue;
+    text-align: center;
+    font-size: 20px;
+
+}
+.top-nav li, .bottom-nav li {
+    display: inline;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.poem li {
+
+    background-color: whitesmoke;
+    list-style-type: none;
+    font-size: 20px;
+}
