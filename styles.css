@@ -1,26 +1,38 @@
-/* Styles for the Advanced Markup assignment. */
+/* Page Styles */
+
 body {
     background-color: #c6d9ec;
-}
-
-section {
     margin: 50px;
-    padding: 5px;
-    width: 40%;
 
 }
 
-aside {
+
+#sidebar {
     float: right;
-    margin: 5px;
-    padding: 5px;
-    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    width: 25%;
+    background-color: white;
 }
+.bio-photo {
+    width: 25%;
+    float: left;
+    background: #778899;
+    margin: 10px;
+    padding: 5px;
+}
+.bio-photo img {
+    width: 100%;
+    height: auto;
+}
+
 
 header {
     background-color: lightsteelblue;
     text-align: center;
     font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 
 }
 .top-nav li, .bottom-nav li {
@@ -30,9 +42,24 @@ header {
 }
 
 
-.poem li {
+.poem  {
 
-    background-color: whitesmoke;
+    background-color: cornflowerblue;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 22px;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+}
+/* Table styles*/
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
 }
