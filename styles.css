@@ -1,15 +1,17 @@
 /* Page Styles */
 
+html {
+    font-family: Baskerville, serif;
+}
+
 body {
     background-color: white;
     margin: 50px;
-
 }
-
 
 #sidebar {
     float: right;
-    margin: 20px;
+    margin: auto 20px;
     padding: 10px;
     width: 25%;
     background-color: #a6c9ff;
@@ -17,51 +19,68 @@ body {
 .bio-photo {
     width: 25%;
     float: left;
-    background:#00004d;
-    color:  #a6c9ff;
+    background:#CCC;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
 }
+
 .bio-photo img {
     width: 100%;
     height: auto;
 }
-
-
+.header-to-center {
+    margin: 40px;
+}
 header {
     background-color: cornflowerblue;
     text-align: center;
     font-size: 20px;
     padding: 10px;
-    margin: 10px;
-
+    margin: 5px;
 }
 .top-nav li, .bottom-nav li {
     display: inline;
     padding: 20px;
     text-align: center;
+    font-size: 20px;
+    margin: 50px;
 }
-
+.top-nav li {
+    color: snow;
+}
 
 .poem  {
-
-    background-color: cornflowerblue;
+    background-color: gainsboro;
     list-style-type: none;
-    font-size: 22px;
-    width: 40%;
-    margin: 20px;
+    font-size: 24px;
+    width: 100%;
+    margin: 100px;
     padding: 10px;
 }
+/*.poem::first-letter {*/
+    /*font-size: 200%;*/
+/**/
+/*}*/
 /* Table styles*/
 
 table, th, td {
-    border: 1px solid #a6c9ff;
-    margin: auto;
+    border: 3px solid #a6c9ff;
+    margin: 30px;
+    border-collapse: collapse;
+    padding: auto 10px;
 }
 table {
-    width: 75%;
+    width: 50%;
+    /*background: thistle;*/
 }
 
 th {
-    height: 50px;
+    height: 30px;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+/* Footer styles*/
+.copyright {
+    float: right;
 }
