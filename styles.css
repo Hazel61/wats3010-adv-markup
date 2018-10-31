@@ -16,6 +16,26 @@ body {
     width: 25%;
     background-color: #a6c9ff;
 }
+.style-social li {
+  display: inline-block;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+}
+.fab {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 25px;
+}
+a.fab:hover{
+    background-color: blue;
+}
+
 .bio-photo {
     width: 25%;
     float: left;
@@ -31,7 +51,7 @@ body {
 .header-to-center {
     margin: 40px;
 }
-header {
+header, footer {
     background-color: cornflowerblue;
     text-align: center;
     font-size: 20px;
